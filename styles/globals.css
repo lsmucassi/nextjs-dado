@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 html,
-body {
+* {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Source Code Pro', monospace;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  box-sizing: border-box;
 }
 
 a {
@@ -13,4 +17,117 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/* // ------------------ */
+header {
+  position: fixed;
+  width: 100%;
+}
+
+nav {
+  height: 80px;
+  background: #f6f7f8;
+}
+
+nav ul {
+  float: right;
+  margin-right: 55px;
+}
+
+nav ul li {
+  display: inline;
+  line-height: 80px;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  position: relative;
+  color: rgb(13, 14, 1);
+  padding: 5px 0;
+  font-size: 15px;
+}
+
+nav ul li a:before {
+  position: absolute;
+  content: ' ';
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background: rgb(82, 85, 88);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform .4s linear;
+}
+
+nav ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+label #btn,
+label #cancel {
+  color: white;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+
+}
+
+@media (max-width: 1118px) {
+  nav .img {
+    left: 5%;
+  }
+}
+
+@media (max-width: 940px) {
+  nav .img {
+    left: 3%;
+    top: 20px;
+    width: 130px;
+  }
+  nav ul li a {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 800px) {
+  label #btn{
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #6b7c8d;;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  #check:checked ~ ul {
+    left: 0%;
+  }
+  #check:checked ~ label #btn {
+    display: none;
+  }
+  #check:checked ~ label #cancel {
+    display: block;
+  }
 }
