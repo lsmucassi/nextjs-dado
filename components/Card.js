@@ -6,10 +6,10 @@ export default function Card() {
         <>
         
             <div className={styles.card_container}>
-                <Image className={styles.round} src="/images/profiles/pp-1.jpg" alt="user" width="64" height="64"/>
+                <Image className={styles.round} src="/images/profiles/pp-1.jpg" alt="user" width="164" height="164"/>
                 <h3>Ricky Park</h3>
                 <h6>New York</h6>
-                <p>User interface designer and <br/> front-end developer</p>
+                <a href="">read more about me</a>
             </div>
 
         </>
