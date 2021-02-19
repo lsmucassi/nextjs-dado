@@ -9,7 +9,12 @@ export default function Petlab() {
                 Meet The Pets Of Petlab
                 </h4>
 
-                <Card />      
+                <div className={styles.grid}>
+                    <Card />
+                    <Card />
+                    <Card />
+                    <Card />
+                </div>
             </main>
         </>
     )
