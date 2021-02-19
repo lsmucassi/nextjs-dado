@@ -6,7 +6,7 @@ export default function Card() {
         <>
         
             <div className={styles.card_container}>
-                <img className={styles.round} src="https://randomuser.me/api/portraits/women/79.jpg" alt="user" />
+                <Image className={styles.round} src="/images/profiles/pp-1.jpg" alt="user" width="64" height="64"/>
                 <h3>Ricky Park</h3>
                 <h6>New York</h6>
                 <p>User interface designer and <br/> front-end developer</p>

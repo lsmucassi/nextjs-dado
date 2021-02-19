@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Footer() {
@@ -10,7 +11,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 >
                 Powered by{' '}
-                <img src="/images/favicon.ico" alt="Vercel Logo" className={styles.logo} />
+                <Image src="/images/favicon.ico" alt="Vercel Logo" className={styles.logo} width="64" height="64" />
                 </a>
             </footer>
         </>
