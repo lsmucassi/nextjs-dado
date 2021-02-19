@@ -11,7 +11,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 >
                 Powered by{' '}
-                <Image src="/images/favicon.ico" alt="Vercel Logo" className={styles.logo} width="64" height="64" />
+                <Image src="/images/favicon.ico" alt="dogo logo" className={styles.logo} width="64" height="64" />
                 </a>
             </footer>
         </>

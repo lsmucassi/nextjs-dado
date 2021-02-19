@@ -87,13 +87,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(204, 177, 26);
 }
 /* CARD */
 .card_container {
-	background-color: #fff;
+	background-color: rgb(204, 177, 26);
 	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(255, 254, 254, 0.945);
-	color: #595c68;
+	/* box-shadow: 0px 10px 20px -10px rgba(255, 254, 254, 0.945); */
+	color: #ffffff;
 	padding: 50px;
 	width: 290px;
 	max-width: 100%;
@@ -102,10 +103,10 @@
 }
 
 .card_container:hover{
-	background-color: rgb(92, 107, 141);
+	background-color: rgb(246, 247, 250);
 	border-radius: 5px;
-	box-shadow: 0px 10px 20px -10px rgba(255, 254, 254, 0.945);
-	color: #fff;
+	box-shadow: 0px 10px 20px -10px rgba(134, 131, 131, 0.945);
+	color: rgb(54, 49, 49);
 	padding: 50px;
 	width: 290px;
 	max-width: 100%;
@@ -150,6 +151,11 @@
 
 .title a {
   color: #0070f3;
+  text-decoration: none;
+}
+
+.main h4 {
+  color: #f6f9fc;
   text-decoration: none;
 }
 
