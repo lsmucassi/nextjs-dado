@@ -7,7 +7,7 @@ export default function Navbar() {
             <header id="header">
                 <nav>
                     <input type="checkbox" id="check" />
-                    <label for="check" >
+                    <label htmlFor="check" >
                         <i className={styles.materialicons} id="btn" >dehaze</i>
                         <i className={styles.materialicons} id="cancel" >close</i>
                     </label>

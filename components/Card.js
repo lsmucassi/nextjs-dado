@@ -7,7 +7,7 @@ export default function Card() {
         
             <div className={styles.card_container}>
                 <div className={styles.round}>
-                    <Image className={styles.round} src="/images/profiles/pp-1.jpg" alt="user" width="164" height="164"/>
+                    <Image className={styles.round} src="/images/dogo-logo.png" alt="user" width="164" height="164"/>
                 </div>
                 <h3>Scooby Doo</h3>
                 <h6>Igwala this one</h6>
