@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 export default function Navbar() {
     return(
@@ -15,13 +16,17 @@ export default function Navbar() {
                         <Image  src="/images/dogo-logo.png" alt="me" width="64" height="64" />
                     </div>
                     <ul>
-                        <li><a href="">gallery</a>
+                        <li>
+                            <Link href="/gallery"><a>gallery</a></Link>
                         </li>
-                        <li><a href="">products</a>
+                        <li>
+                            <Link href="/"><a>products</a></Link>
                         </li>
-                        <li><a href="">blog</a>
+                        <li>
+                            <Link href="/"><a>blog</a></Link>
                         </li>
-                        <li><a href="">hoof_hoof</a>
+                        <li>
+                            <Link href="/contact"><a href="">hoof_hoof</a></Link>
                         </li>
                     </ul>
                 </nav>

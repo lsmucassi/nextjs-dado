@@ -2,9 +2,9 @@ import styles from '../../styles/Home.module.css'
 import Card from '../../components/Card'
 import Navbar from '../../components/Navbar'
 import { pets } from '../api/store/data'
+import Footer from '../../components/Footer'
 
-export default function Gallery( { petList } ) {
-    console.log(petList)
+export default function Gallery({ petList }) {
     return(
         <>
             <Navbar />
@@ -19,6 +19,7 @@ export default function Gallery( { petList } ) {
                     ))}
                 </div>
             </main>
+            <Footer />
         </>
     )
 }
