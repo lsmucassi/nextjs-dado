@@ -15,7 +15,7 @@ export default function Navbar() {
                         <Image  src="/images/dogo-logo.png" alt="me" width="64" height="64" />
                     </div>
                     <ul>
-                        <li><a href="">about_us</a>
+                        <li><a href="">gallery</a>
                         </li>
                         <li><a href="">products</a>
                         </li>
