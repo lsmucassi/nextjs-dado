@@ -13,7 +13,9 @@ export default function Navbar() {
                         <i className={styles.materialicons} id="cancel" >close</i>
                     </label>
                     <div className={styles.img}>
-                        <Image  src="/images/dogo-logo.png" alt="me" width="64" height="64" />
+                        <Link href="/">
+                            <a><Image  src="/images/dogo-logo.png" alt="me" width="64" height="64" /></a>
+                        </Link>
                     </div>
                     <ul>
                         <li>
