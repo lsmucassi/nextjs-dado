@@ -6,7 +6,7 @@ export default function Card({ pet }) {
         <>
             <div className={styles.card_container}>
                 <div className={styles.round}>
-                    <Image className={styles.round} src={pet.src} layout='fixed' alt="user" width="164" height="164"/>
+                    <Image className={styles.round} src={pet.src} layout='fixed' alt="dogo" width="164" height="164"/>
                 </div>
                 <h3>{pet.pet_name}</h3>
                 <h6>{pet.pet_role}</h6>
