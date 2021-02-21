@@ -43,9 +43,9 @@ export default function Petlab( { petList }) {
                 Meet The Pets Of Petlab
                 </h4>
                 <div className={styles.grid}>
-                    {petList.map((pet) => {
+                    {/* {petList.map((pet) => {
                         return <Card pet={pet.petName} key={pet.id} />
-                    })}
+                    })} */}
                 </div>
             </main>
         </>

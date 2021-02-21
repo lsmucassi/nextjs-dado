@@ -28,7 +28,7 @@ export default function Navbar() {
                             <Link href="/"><a>blog</a></Link>
                         </li>
                         <li>
-                            <Link href="/contact"><a href="">hoof_hoof</a></Link>
+                            <Link href="/contact"><a>hoof_hoof</a></Link>
                         </li>
                     </ul>
                 </nav>
