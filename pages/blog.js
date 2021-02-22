@@ -10,7 +10,7 @@ export default function blog() {
             <Navbar />
             <main className={styles.main}>                
                 <h4 className={styles.title}>
-                Blogs &amp; Bones
+                Blogs, Bones &amp; More 
                 </h4>
 
             </main>
