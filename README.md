@@ -1,7 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
-
 First, run the development server:
 
 ```bash
@@ -12,23 +11,43 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Pages & Components 
+> pages
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- index: This is the landing page of the app, here you can find a hero/landing component and the gallery of pet bio's loaded from a local data storage
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- bio: In the bio page you will find a list of pet bios listed, rendered from the contentful CMS API, here the name, age, role/title and the bio of pets are listed
 
-## Learn More
+- blog: Empty, just a fun page
 
-To learn more about Next.js, take a look at the following resources:
+- hoof_hoof (contact): A dummy contact page
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Components included
+components/
+- Navbar: The component for navigation and linking pages
+- Hero: The banner for tge landing page
+- Snap: A card used to render the contentful data
+- Card: The card component used to render gallery information
+- View: A component that hold other components
+- Footer: A footer component
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Folders
+pages/
+- api/store/data: Used to store the local json file with the pet's information
+- bio/index: The component which renders the contenful data of pets
 
-## Deploy on Vercel
+public/
+- Stores the icons, logos and other assets
+- images: logo and favicons/svg's are stored here 
+- images/profiles: stored all the profile pictures of the dogs
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+styles
+- All the css used is in the files here
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+:NOTE:
+No use of environment variables since the spaceID and accessToken have to be shared
+
+
+Links
+- [Github](https://github.com/lsmucassi/nextjs-dado)
+- [Hosted on Netlify](https://zealous-torvalds-caf193.netlify.app/) : I have faced issues where the application is not updating in realtime so please use the local development project for review

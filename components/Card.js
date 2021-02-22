@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from '../styles/Home.module.css'
 
+/* The Card component is used by the gallery to render local data */
 export default function Card({ pet }) {
     return(
         <>
