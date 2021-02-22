@@ -55,6 +55,7 @@ Links
 :TO_DO:
 
 [ x ] : Bootstrap NextJS App (create-next-app)
+
 [x] : Create Navigation Bar
 [x] : add fake logo - used to navigate home '/'
 [x] : Create Hero/Landing Banner 
