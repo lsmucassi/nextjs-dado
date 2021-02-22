@@ -78,6 +78,15 @@ label #cancel {
   display: none;
 }
 
+code {
+  display: inline-block;
+  font-family: "Roboto Mono", monospace;
+  background: #383838;
+  color: #e4bd21;
+  padding: 0 4px;
+  border-radius: 2px;
+}
+
 #check {
   display: none;
 
@@ -192,6 +201,7 @@ label #cancel {
 .credit a{
 	color:#daa106;	
 }
+
 @media (max-width: 600px) {
 .form_wrapper .col_half {
 	width:100%;
@@ -199,9 +209,8 @@ label #cancel {
 }
 .form_wrapper label {
 	margin:10px 0;
+  }
 }
-}
-
 
 @media (max-width: 1118px) {
   nav .img {

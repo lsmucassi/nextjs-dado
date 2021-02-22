@@ -89,6 +89,7 @@
   align-items: center;
   background-color: rgb(204, 177, 26);
 }
+
 /* CARD */
 .card_container {
 	background-color: rgb(204, 177, 26);
@@ -129,13 +130,15 @@
 }
 
 .card_container h3 {
-  padding: 15px;
+  padding: 5px;
   font-size: 20px;
 }
 
 .card_container h6 {
   font-size: 15px;
+  padding: 10px;
 }
+
 
 /* FOOTER */
 
