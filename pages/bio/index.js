@@ -1,11 +1,12 @@
 
-import styles from '../styles/Home.module.css'
+import styles from '../../styles/Home.module.css'
 import Footer from '../../components/Footer'
 import Snap from '../../components/Snap'
-
+import Navbar from '../../components/Navbar'
 export default function Bio({ pets }) {
     return(
         <>
+            <Navbar />
             <main className={styles.main}>
                 <h4 className={styles.title}>
                 Meet The Pets Of Petlab
