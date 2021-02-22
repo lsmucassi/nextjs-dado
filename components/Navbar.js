@@ -22,10 +22,7 @@ export default function Navbar() {
                             <Link href="/gallery"><a>gallery</a></Link>
                         </li>
                         <li>
-                            <Link href="/"><a>products</a></Link>
-                        </li>
-                        <li>
-                            <Link href="/"><a>blog</a></Link>
+                            <Link href="/blog"><a>blog</a></Link>
                         </li>
                         <li>
                             <Link href="/contact"><a>hoof_hoof</a></Link>
