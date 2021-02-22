@@ -14,7 +14,6 @@ export default function Bio({ pets }) {
                 </h4>
                 <div className={styles.grid}>
                     {pets.map((pet) => (
-                        // <h1>{pet.sys.id}</h1>
                         <Snap pets={pet.fields} key={pet.sys.id} />
                     ))} 
                 </div>

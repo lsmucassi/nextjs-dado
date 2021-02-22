@@ -14,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Pages & Components 
 > pages
 
-- index: This is the landing page of the app, here you can find a hero/landing component and the gallery of pet bio's loaded from a local data storage
+- index: This is the landing page of the app, here you can find a hero/landing component and the gallery of pet bio's loaded from a local data storage (use the logo to navigate home)
 
 - bio: In the bio page you will find a list of pet bios listed, rendered from the contentful CMS API, here the name, age, role/title and the bio of pets are listed
 
@@ -50,12 +50,13 @@ No use of environment variables since the spaceID and accessToken have to be sha
 
 Links
 - [Github](https://github.com/lsmucassi/nextjs-dado)
-- [Hosted on Netlify](https://zealous-torvalds-caf193.netlify.app/) : I have faced issues where the application is not updating in realtime so please use the local development project for review
+- [Hosted on Netlify](https://zealous-torvalds-caf193.netlify.app/) : I have faced issues where the application is not updating in realtime so please use the local development project for review; abd images are not perfectly rendered - this is a netlify loading issue
 
 :TO_DO:
 
 [x] : Bootstrap NextJS App (create-next-app)
 [x] : Create Navigation Bar
+[x] : add fake logo - used to navigate home '/'
 [x] : Create Hero/Landing Banner 
 [x] : Create A component to render local data
 [x] : Render local data
