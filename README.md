@@ -29,7 +29,7 @@ components/
 - Snap: A card used to render the contentful data
 - Card: The card component used to render gallery information
 - View: A component that hold other components
-- Footer: A footer component
+- Footer: A footer component (logo and text navigates home when clicked)
 
 ## Folders
 pages/
