@@ -19,7 +19,7 @@ export default function Navbar() {
                     </div>
                     <ul>
                         <li>
-                            <Link href="/gallery"><a>gallery</a></Link>
+                            <Link href="/bio"><a>bio</a></Link>
                         </li>
                         <li>
                             <Link href="/blog"><a>blog</a></Link>

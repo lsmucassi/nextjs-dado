@@ -10,7 +10,7 @@ export default function blog() {
             <View />
             <main className={styles.main}>                
                 <h4 className={styles.title}>
-                Blog &amp; Bones
+                Blogs &amp; Bones
                 </h4>
 
             </main>

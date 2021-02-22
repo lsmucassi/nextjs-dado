@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 export default function Snap({ pets }) {
     return(
         <>
-            <div className={styles.card_container}>
+            <div className={styles.snap_card_container}>
                 
                 <h3>{pets.petName}
                     <h6>Age:[{pets.petAge}]</h6>
