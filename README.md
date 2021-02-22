@@ -51,3 +51,20 @@ No use of environment variables since the spaceID and accessToken have to be sha
 Links
 - [Github](https://github.com/lsmucassi/nextjs-dado)
 - [Hosted on Netlify](https://zealous-torvalds-caf193.netlify.app/) : I have faced issues where the application is not updating in realtime so please use the local development project for review
+
+:TO_DO:
+
+[x] : Bootstrap NextJS App (create-next-app)
+[x] : Create Navigation Bar
+[x] : Create Hero/Landing Banner 
+[x] : Create A component to render local data
+[x] : Render local data
+[x] : Style
+[x] : Test 
+[x] : Create A component to render Contentful data
+[x] : Create Dud Contentful Account
+[x] : Configure Contentful Models
+[x] : Render Contentful data
+[x] : Refractor Code
+[x] : Test Styling
+[x] : Test Final App
