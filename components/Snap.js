@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 
+/* A component to render contentful cms data */
 export default function Snap({ pets }) {
     return(
         <>

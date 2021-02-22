@@ -1,5 +1,6 @@
 import styles from '../styles/Home.module.css'
 
+/* A hero/Landing Banner with welcome message */
 export default function Hero() {
     return(
         <>

@@ -2,6 +2,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+// dummy contact page
 export default function Contact() {
     return(
         <>

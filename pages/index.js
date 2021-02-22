@@ -5,6 +5,9 @@ import { pets } from './api/store/data'
 import Footer from '../components/Footer'
 import Head from 'next/head'
 import View from '../components/View'
+
+/* landing component, renders the static data and navigation bar, footer and hero components,
+    uses server side props to get and render local data */
 export default function Gallery({ petList }) {
     return(
         <>

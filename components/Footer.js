@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
+/* A footer component */
 export default function Footer() {
     return(
         <>
