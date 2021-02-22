@@ -54,19 +54,18 @@ Links
 
 :TO_DO:
 
-[ x ] : Bootstrap NextJS App (create-next-app)
-
-[x] : Create Navigation Bar
-[x] : add fake logo - used to navigate home '/'
-[x] : Create Hero/Landing Banner 
-[x] : Create A component to render local data
-[x] : Render local data
-[x] : Style
-[x] : Test 
-[x] : Create A component to render Contentful data
-[x] : Create Dud Contentful Account
-[x] : Configure Contentful Models
-[x] : Render Contentful data
-[x] : Refractor Code
-[x] : Test Styling
-[x] : Test Final App
+-[x] : Bootstrap NextJS App (create-next-app)
+-[x] : Create Navigation Bar
+-[x] : add fake logo - used to navigate home '/'
+-[x] : Create Hero/Landing Banner 
+-[x] : Create A component to render local data
+-[x] : Render local data
+-[x] : Style
+-[x] : Test 
+-[x] : Create A component to render Contentful data
+-[x] : Create Dud Contentful Account
+-[x] : Configure Contentful Models
+-[x] : Render Contentful data
+-[x] : Refractor Code
+-[x] : Test Styling
+-[x] : Test Final App
